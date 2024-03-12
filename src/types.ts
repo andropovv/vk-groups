@@ -16,3 +16,8 @@ export interface User {
   first_name: string;
   last_name: string;
 }
+
+export interface Option {
+  title: string;
+  value: string | boolean | null;
+}
